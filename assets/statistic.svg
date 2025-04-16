@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314 205" width="314" height="205">
+	<title>Statistic</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(172.2,-298.3,268.337,154.903,94.4,295.2)">
+			<stop offset=".4" stop-color="#ffffff" stop-opacity="0"/>
+			<stop offset=".9" stop-color="#4d987d" stop-opacity="1"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { opacity: .7;fill: url(#g1) } 
+		.s1 { fill: none;stroke: #4d987d;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 7 } 
+	</style>
+	<g>
+		<g id="_Слой_1">
+			<path fill-rule="evenodd" class="s0" d="m6.5 137.5l75-35 36 9 61.7-34.9 15.3 5.9 107.5-65.2v228.2h-293.8l-1.7-108z"/>
+			<path fill-rule="evenodd" class="s1" d="m300.5 16.5l-106.5 62.5-16-5-62 34-36-8-71.8 32.6"/>
+		</g>
+	</g>
+</svg>

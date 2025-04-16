@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 199" width="198" height="199">
+	<title>Years experience</title>
+	<style>
+		.s0 { fill: none;stroke: #ffffff;stroke-miterlimit:10;stroke-width: 19.6 } 
+	</style>
+	<g>
+		<g id="_Слой_1">
+			<path fill-rule="evenodd" class="s0" d="m100.5 180c-43.4 0-78.5-35.1-78.5-78.5 0-43.4 35.1-78.5 78.5-78.5 43.4 0 78.5 35.1 78.5 78.5 0 43.4-35.1 78.5-78.5 78.5z"/>
+			<path fill-rule="evenodd" class="s0" d="m21 100h155"/>
+			<path class="s0" d="m95 25c0 0-22.1 35-21.1 75 1 40 26.1 72 26.1 72 0 0 28.3-32 27.6-72-0.7-40-24.6-75-24.6-75z"/>
+		</g>
+	</g>
+</svg>

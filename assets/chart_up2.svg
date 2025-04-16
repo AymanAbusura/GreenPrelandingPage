@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 43" width="100" height="43">
+	<title>Рост2</title>
+	<style>
+		.s0 { fill: none;stroke: #2abb06;stroke-miterlimit:10;stroke-width: 4 } 
+	</style>
+	<g>
+		<g id="_Слой_1">
+			<path fill-rule="evenodd" class="s0" d="m5 35l5-2 4-9 3-4 3 2 3 4 8-10 7 8v5.5l3 4.5 10-11 3-8 3-4 4 8 3 5 4-8 2-6 4 7h8l3 5 6-9 3-7"/>
+		</g>
+	</g>
+</svg>

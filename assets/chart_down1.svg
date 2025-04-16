@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 43" width="97" height="43">
+	<title>Спад1</title>
+	<style>
+		.s0 { fill: none;stroke: #df0808;stroke-miterlimit:10;stroke-width: 4 } 
+	</style>
+	<g>
+		<g id="_Слой_1">
+			<path fill-rule="evenodd" class="s0" d="m2 23l7 1 5-6 7-8 5-4 2 8 4 7 5-8 1-5 4 8 6.5 4.7 6.5-3.7 5 7v5.7l7-3.7v-7.2l6-5.8 2 11 13 12 5 1.5"/>
+		</g>
+	</g>
+</svg>
