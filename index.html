@@ -590,8 +590,9 @@
     // TESTIMONIAL CAROUSEL
     const track = document.getElementById("carousel-track");
     const cards = document.querySelectorAll(".testimonial-card");
-    const cardWidth = 400 + 40;
-    const visibleCards = 3;
+
+    let cardWidth = 400 + 40;
+    let visibleCards = window.innerWidth <= 768 ? 1 : 3;
     let currentIndex = 0;
 
     function slideCarousel() {
@@ -602,7 +603,21 @@
         track.style.transform = `translateX(-${currentIndex * visibleCards * cardWidth}px)`;
     }
 
-    setInterval(slideCarousel, 5000);
+    function updateSettings() {
+        visibleCards = window.innerWidth <= 768 ? 1 : 3;
+        currentIndex = 0;
+        track.style.transform = `translateX(0px)`;
+    }
+
+    let interval = setInterval(slideCarousel, 5000);
+
+    window.addEventListener("resize", () => {
+        clearInterval(interval);
+        updateSettings();
+        interval = setInterval(slideCarousel, 5000);
+    });
+
+    updateSettings();
 </script>
 
 </body>
