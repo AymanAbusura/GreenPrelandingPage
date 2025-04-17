@@ -1023,6 +1023,8 @@ td span {
 .youtube {
     width: 15%;
     margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container__testimonials {
