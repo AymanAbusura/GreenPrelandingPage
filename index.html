@@ -312,8 +312,16 @@
 
     <div class="block p0 container-steps">
         <h2 class="title-2 center uppercase">What is FinovexPro?</h2>
-        <div class="video-container">
-            <iframe class="video" id="youtubePlayer" src="https://www.youtube.com/embed/G_YHcyVBnPY?enablejsapi=1" title="NetherexPro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-wrapper">
+            <video class="stretched-video" playsinline>
+                <source src="assets/video.mp4" type="video/webm" />
+            </video>
+        </div>
+
+        <div class="outer circle" id="playPauseBtn">
+            <div class="inner circle">
+                <img src="assets/play.png" class="play_icon" id="playIcon">
+            </div>
         </div>
 
         <div class="block__img block__img-1 youtube">
@@ -618,6 +626,31 @@
     });
 
     updateSettings();
+    
+    // VIDEO PLAY
+    const video = document.querySelector('.stretched-video');
+    const playBtn = document.getElementById('playPauseBtn');
+    const playIcon = document.getElementById('playIcon');
+    const glassCard = document.querySelector('.glass-card');
+
+    playBtn.addEventListener('click', () => {
+        video.play();
+        playBtn.style.display = 'none';
+        glassCard.style.display = 'none';
+    });
+
+    video.addEventListener('click', () => {
+        if (!video.paused) {
+            video.pause();
+            playBtn.style.display = 'flex';
+            glassCard.style.display = 'block';
+        }
+    });
+
+    video.addEventListener('ended', () => {
+        playBtn.style.display = 'flex';
+        glassCard.style.display = 'block';
+    });
 </script>
 
 </body>
