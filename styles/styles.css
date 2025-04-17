@@ -913,7 +913,7 @@ td span {
     background: #fff;
     padding-block: 50px;
     padding-bottom: 0;
-    width: 1320px;
+/*    width: 1320px;*/
     align-content: center;
     margin: 0 auto;
 }
@@ -2600,6 +2600,7 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 425px) {
+    .outer { left: 40%; top: 40%; }
     table { width: 400px; }
     .clear { flex-direction: column; }
     .video { width: 400px; }
@@ -2721,6 +2722,7 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 320px) {
+    .outer { left: 35%; }
     table { width: 315px; }
     .trading__block__title { font-size: 40px; }
     .left-box__block { width: 33%; }
