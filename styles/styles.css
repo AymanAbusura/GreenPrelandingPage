@@ -921,11 +921,17 @@ td span {
 .video-wrapper {
     width: 100%;
     max-width: 100%;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+.video-thumbnail {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
 }
 
 .stretched-video {

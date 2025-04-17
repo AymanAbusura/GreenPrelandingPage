@@ -313,10 +313,8 @@
     <div class="block p0 container-steps">
         <div class="container">
         <h2 class="title-2 center uppercase">What is FinovexPro?</h2>
-        <div class="video-wrapper">
-            <video class="stretched-video" playsinline>
-                <source src="assets/video.mp4" type="video/webm" />
-            </video>
+        <div class="video-wrapper" id="videoContainer">
+            <img src="assets/thumbnail.webp" class="video-thumbnail" id="videoThumbnail" alt="Video Thumbnail">
         </div>
 
         <div class="outer circle" id="playPauseBtn">
@@ -630,28 +628,29 @@
     updateSettings();
     
     // VIDEO PLAY
-    const video = document.querySelector('.stretched-video');
+    const videoContainer = document.getElementById('videoContainer');
     const playBtn = document.getElementById('playPauseBtn');
     const playIcon = document.getElementById('playIcon');
     const glassCard = document.querySelector('.glass-card');
+    const thumbnail = document.getElementById('videoThumbnail');
+
+    let iframe;
 
     playBtn.addEventListener('click', () => {
-        video.play();
+        thumbnail.style.display = 'none';
         playBtn.style.display = 'none';
-        glassCard.style.display = 'none';
-    });
+        if (glassCard) glassCard.style.display = 'none';
 
-    video.addEventListener('click', () => {
-        if (!video.paused) {
-            video.pause();
-            playBtn.style.display = 'flex';
-            glassCard.style.display = 'block';
+        if (!iframe) {
+            iframe = document.createElement('iframe');
+            iframe.src = 'https://www.youtube.com/embed/G_YHcyVBnPY?autoplay=1&mute=0&controls=1&rel=0&modestbranding=1&enablejsapi=1';
+            iframe.frameBorder = '0';
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+            iframe.allowFullscreen = true;
+            iframe.classList.add('stretched-video');
+
+            videoContainer.appendChild(iframe);
         }
-    });
-
-    video.addEventListener('ended', () => {
-        playBtn.style.display = 'flex';
-        glassCard.style.display = 'block';
     });
 </script>
 
