@@ -641,6 +641,9 @@
         playBtn.style.display = 'none';
         if (glassCard) glassCard.style.display = 'none';
 
+        // ✅ Remove overlay
+        videoContainer.classList.add('no-overlay');
+
         if (!iframe) {
             iframe = document.createElement('iframe');
             iframe.src = 'https://www.youtube.com/embed/G_YHcyVBnPY?autoplay=1&mute=0&controls=1&rel=0&modestbranding=1&enablejsapi=1';
