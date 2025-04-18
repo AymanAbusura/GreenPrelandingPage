@@ -2626,6 +2626,7 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 425px) {
+    .container__testimonials__1 { padding-inline: 10px; }
     .outer { left: 40%; top: 40%; }
     table { width: 400px; }
     .clear { flex-direction: column; }
