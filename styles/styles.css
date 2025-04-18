@@ -2626,6 +2626,7 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 425px) {
+    th, td { padding: 3px; }
     .container__testimonials__1 { padding-inline: 10px; }
     .outer { left: 40%; top: 40%; }
     table { width: 400px; }
@@ -2709,6 +2710,7 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 375px) {
+    .holder__container { padding: 0; }
     .testimonial-card { flex: 0 0 300px; }
     table { width: 370px; }
     .clear { flex-direction: column; }
