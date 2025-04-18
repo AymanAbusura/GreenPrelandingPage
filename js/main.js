@@ -61,7 +61,7 @@ window.onload = function() {;
 
 
 	// замена домена
-	var domainName = "shaddersagent.com";
+	var domainName = "finovexpro.com";
 	var replaceableTextElements = document.querySelectorAll(".domain");
 	replaceableTextElements.forEach(function(element) {
 	    if (element.classList.contains("email")) {
