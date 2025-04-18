@@ -2113,6 +2113,8 @@ footer .nav-footer .language>a::after{
 
 .btn-contact {
 	margin-top: 100px;
+    text-transform: none!important;
+    font-weight: 400!important;
 }
 
 .contact_line { bottom: 7rem; }
