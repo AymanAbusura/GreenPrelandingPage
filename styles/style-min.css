@@ -518,7 +518,7 @@ textarea{
 }
 .form-contact{
 	margin-inline:auto;
-	max-width:630px
+	max-width:630px;
 }
 .card__img img,.holder__image img{
 	max-width:100%
@@ -855,6 +855,7 @@ textarea{
 	background-color: #000;
 	position: relative;
 	z-index: 2;
+	padding-top: 20px;
 }
 
 .footer span {
