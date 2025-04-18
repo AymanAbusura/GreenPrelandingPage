@@ -671,7 +671,7 @@ button img {
     bottom: 22%;
 }
 
-/* Why Trade with ShaddersAgent? */
+/* Why Trade? */
 .left-box__block { 
     height: 50%;
     width: 10%;
@@ -1462,7 +1462,7 @@ td span {
     right: 37%;
 }
 
-/* Getting Started with ShaddersAgent */
+/* Getting Started */
 .title_started {
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -2358,7 +2358,7 @@ footer .nav-footer .language>a::after{
     	height: 844px;
 	}*/
 
-/* Why Trade with ShaddersAgent? */
+/* Why Trade? */
 	.container__trading { gap: 10px; }
 	.block__img__trading { width: 100%; }
 	.container__trading__description { justify-content: flex-end; }
@@ -2367,7 +2367,7 @@ footer .nav-footer .language>a::after{
 	.block__title-2 { font-size: 30px; }
 	.number__info { font-size: 8px; }
 
-/* How does ShaddersAgent improve your trading experience? */
+/* How does  improve your trading experience? */
 	.benefit-line {
 		width: 104%;
 		right: 18%;
@@ -2378,7 +2378,7 @@ footer .nav-footer .language>a::after{
         right: 34%;
 	}
 
-/* Getting Started with ShaddersAgent */
+/* Getting Started */
 	.flash_step2 {
 	    background-size: cover;
 	    height: 300px;
@@ -2567,7 +2567,7 @@ footer .nav-footer .language>a::after{
         left: 40%;
 	}
 
-/* Why Trade with ShaddersAgent? */
+/* Why Trade? */
 	.container__trading { flex-direction: column; gap: 10px; }
 	.block__img__trading { align-items: normal; width: 70%; }
 	.trading_rocket { width: auto; }
@@ -2575,7 +2575,7 @@ footer .nav-footer .language>a::after{
 	.coin { width: 50%; }
 	.rocket { padding: 10px; }
 
-/* How does ShaddersAgent improve your trading experience? */
+/* How does  improve your trading experience? */
 	.experience__title { font-size: 30px; }
 	.experience__info { max-width: 100%; }
 	.experience__button { margin: 0 auto; margin-top: 20px; }
@@ -2586,7 +2586,7 @@ footer .nav-footer .language>a::after{
 	.benefit-line { display: none; }
 	.benefit__col span { text-align: center; }
 
-/* Getting Started with ShaddersAgent */
+/* Getting Started */
 	.steps__cards {
 		flex-direction: column;
 		margin-top: 50px;
@@ -2732,7 +2732,7 @@ footer .nav-footer .language>a::after{
 	}
 	.space { padding-block: 50px!important; }
 
-/* Why Trade with ShaddersAgent? */
+/* Why Trade? */
 	.container__trading {
 	    flex-direction: column;
 	    align-items: center;
@@ -2745,7 +2745,7 @@ footer .nav-footer .language>a::after{
 	.container__trading__details { width: 100%; align-items: center; }
 	.container__trading__details__info button { margin: 0 auto; margin-top: 20px; }
 
-/* Getting Started with ShaddersAgent */
+/* Getting Started */
 	.step__card:nth-child(1), .step__card:nth-child(3) { 
 		margin-right: 0; 
 		margin-left: 0; 
